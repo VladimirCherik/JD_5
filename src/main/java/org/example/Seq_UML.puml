@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Main -> FibonacciAlgorithms.iterative: method call
+Main <-- FibonacciAlgorithms.iterative: response from iterative method
+
+Main -> FibonacciAlgorithms.recursion: method call
+Main <-- FibonacciAlgorithms.recursion: response from recursion method
+
+Main -> FibonacciAlgorithms.dynamic: method call
+Main <-- FibonacciAlgorithms.dynamic: response from dynamic method
+
+
+
+rnote over Main
+output in the console
+endhnote
+@enduml
